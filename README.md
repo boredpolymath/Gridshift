@@ -1,5 +1,7 @@
 # Gridshift
 
+![Gridshift planning a transition from legacy switchgear to lower-impact equipment](assets/gridshift-readme-hero.png)
+
 ### Plan a practical path away from SF₆.
 
 Gridshift is a local-first planning workspace for electricity teams exploring the transition from SF₆ equipment to lower-impact alternatives. It brings asset records, technology information, replacement plans, and planning estimates together so teams can compare options and see what needs further review.
