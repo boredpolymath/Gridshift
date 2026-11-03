@@ -1,0 +1,10 @@
+{
+  "name": "Gridshift",
+  "short_name": "Gridshift",
+  "description": "Local-first planning for SF6-free grid transitions.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#61675f",
+  "theme_color": "#61675f",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
