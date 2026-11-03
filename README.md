@@ -1,8 +1,10 @@
 # Gridshift
 
-<img src="assets/gridshift-icon-preview.png" alt="Gridshift circuit G icon" width="96" height="96">
-
 ![Gridshift planning a transition from legacy switchgear to lower-impact equipment](assets/gridshift-readme-hero.png)
+
+<p align="center">
+  <img src="assets/gridshift-icon-preview.png" alt="Gridshift circuit G icon" width="96" height="96">
+</p>
 
 ### Plan a practical path away from SF₆.
 
