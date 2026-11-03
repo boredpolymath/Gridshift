@@ -35,8 +35,8 @@ REQUIRED = {
     ],
     "RELEASE_REVIEW_PACKET.md": [
         "Domain review is not a public-launch gate under this revised criterion.",
-        "Pending owner decision:** Before launch, resolve the newly identified shared-origin storage exposure",
-        "Explicit owner acceptance or migration to a dedicated hostname remains pending.",
+        "Bored Polymath Studios accepted retaining the planned shared GitHub Pages origin on 2026-11-03",
+        "do not store confidential utility records on the shared origin unless every publisher on it is trusted",
     ],
 }
 
