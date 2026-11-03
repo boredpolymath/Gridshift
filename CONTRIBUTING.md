@@ -20,13 +20,15 @@ Thanks for your interest in improving Gridshift. Bug reports, thoughtful feature
 
 ## Running Gridshift locally
 
-Gridshift is a static web app with no package installation or build step. From the repository root, run:
+Gridshift is a static web app with no runtime dependencies or build step. From the repository root, run:
 
 ```sh
 python3 -m http.server 8000
 ```
 
 Open [http://localhost:8000](http://localhost:8000). A local server is needed to exercise service-worker installation and offline caching. You can open `index.html` directly for a quick visual check.
+
+With Node.js 22 or later, run `npm test` for calculation, CSV, backup-validation, and service-worker checks. Run `python3 scripts/validate_pwa.py` to verify the manifest and install assets. Browser install, offline, and update behavior still needs a browser smoke check.
 
 Before submitting, review your change in a current browser and check the relevant workflow. If you cannot check a particular browser or workflow, mention that in the pull request.
 
