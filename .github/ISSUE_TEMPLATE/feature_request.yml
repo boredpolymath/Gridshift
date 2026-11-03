@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest a user workflow or planning capability.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+      description: Describe the planning task or difficulty you encounter.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to happen?
+      description: Describe the workflow or capability you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or context
+      description: How do you handle this today? Include relevant constraints or sources.
+    validations:
+      required: false

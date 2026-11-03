@@ -45,6 +45,10 @@ Gridshift keeps measured annual losses separate from estimated loss rates, shows
 
 Gridshift stores project data in browser-local storage. It does not sync project data to a server. Browser storage can be cleared or evicted, so export a JSON backup and store it securely. Local storage is not an enterprise access-control or encryption system; use care on shared devices.
 
+## Project policies
+
+Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). For vulnerability reports, follow [SECURITY.md](SECURITY.md). Gridshift is released under the [MIT License](LICENSE).
+
 ---
 
 **Gridshift is a planning prototype.** Results depend on the assumptions and source data entered by the user and should be independently reviewed before they inform investment or operational decisions.
