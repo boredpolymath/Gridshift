@@ -4,9 +4,9 @@
 
 - Disclose that pages on the planned `boredpolymath.github.io` host share the browser storage origin, and warn against storing confidential records there unless all same-origin publishers are trusted.
 - Bump the app version to 0.2.3 and the service-worker cache to v8 so installed users can receive the updated privacy guidance through the user-controlled update flow.
-- Record the owner decision about retaining the shared Pages origin or moving to a dedicated hostname as an open release gate.
+- Record the owner's 2026-11-03 decision to retain the shared Pages origin and accept its localStorage exposure, with the warning visible and confidential utility records excluded unless all same-origin publishers are trusted.
 
-This is not a published release. Owner review of the newly disclosed origin-sharing risk, detailed browser records, live Pages checks, and final release approval remain open.
+This is not a published release. Detailed browser records, live Pages checks, remaining manual reviews, and final deployment approval remain open.
 
 ## 0.2.2 — explicitly unreviewed release candidate
 
