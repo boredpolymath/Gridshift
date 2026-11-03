@@ -1,6 +1,6 @@
 # Static release runbook
 
-This runbook targets a public GitHub Pages project site at `https://boredpolymath.github.io/Gridshift/`. The earlier 2026-11-03 repository check reported Pages disabled. A later check that day found no GitHub Actions runs and no `.github/workflows` directory on remote `main`; the available web tool could not open the Pages URL, so its HTTP status is not established. The local workflow is prepared; it must be reviewed and published before the Pages setup below can run.
+This runbook targets a public GitHub Pages project site at `https://boredpolymath.github.io/Gridshift/`. GitHub reports PR #1 merged on 2026-11-03, so remote `main` now contains the Pages and quality workflows. Repository metadata reports Pages disabled (`has_pages: false`); the main-branch Pages run failed at `configure-pages` and skipped deployment. The quality run failed because the release-disclosure validator still expected the old pending host-decision text; the validator has been corrected in the local worktree, but that correction has not been published. The available web tool could not open the Pages URL, so its HTTP status is not established. Do not treat the app as deployed.
 
 ## Before publishing
 

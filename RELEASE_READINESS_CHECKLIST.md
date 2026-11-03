@@ -75,7 +75,8 @@ Updated 2026-11-03 after implementation and repository-level validation. `[x]` m
 - [ ] Test install, launch, update, uninstall/reinstall, and offline behavior on supported desktop browsers, iOS/iPadOS Safari, and Android Chrome.
 - [x] Add a GitHub Pages Actions deployment workflow and a minimal app-shell packaging script. Actions are pinned to immutable SHAs.
 - [x] Document Pages project path, HTTPS, MIME types, relative URLs, rollback, and response-header limitations in `RELEASE_RUNBOOK.md` and `SECURITY.md`.
-- [ ] Publish the prepared workflow and select GitHub Actions as the repository Pages source. The earlier 2026-11-03 repository check reported Pages disabled. A later same-day GitHub API recheck found zero Actions runs and no `.github/workflows` directory on remote `main`; the available web tool could not open the Pages URL, so its HTTP status is not established. After deployment, verify headers, manifest/worker MIME types, `/Gridshift/` URLs, HTTPS, update behavior, and rollback.
+- [x] Publish the Pages and quality workflows to `main` through PR #1 (merged 2026-11-03).
+- [ ] Select GitHub Actions as the repository Pages source. GitHub currently reports Pages disabled (`has_pages: false`); the main-branch Pages run failed at `configure-pages`, so deployment was skipped. The main-branch quality run failed because `validate_release_disclosures.py` expected the former pending host-decision text; the local validator has been corrected, but that correction has not been published. The available web tool cannot open the Pages URL, so its HTTP status is not established. After enabling Pages, verify headers, manifest/worker MIME types, `/Gridshift/` URLs, HTTPS, update behavior, and rollback.
 
 ## 6. Accessibility, usability, and compatibility
 
