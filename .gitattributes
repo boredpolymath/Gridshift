@@ -1,0 +1,3 @@
+# Include the hand-authored static app source in GitHub's language statistics.
+*.js linguist-generated=false
+*.css linguist-generated=false
