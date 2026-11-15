@@ -1,3 +1,7 @@
-# Include the hand-authored static app source in GitHub's language statistics.
+# Language statistics should describe the application runtime, not its presentation layer.
 *.js linguist-generated=false linguist-vendored=false linguist-documentation=false linguist-detectable=true
-*.css linguist-generated=false linguist-vendored=false linguist-documentation=false linguist-detectable=true
+*.css linguist-detectable=false
+*.html linguist-detectable=false
+
+# Build and validation scripts support the browser app but are not its runtime.
+scripts/** linguist-detectable=false
