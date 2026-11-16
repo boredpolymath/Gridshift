@@ -1,7 +1,0 @@
-# Language statistics should describe the application runtime, not its presentation layer.
-*.js -linguist-generated -linguist-vendored -linguist-documentation linguist-detectable
-*.css -linguist-detectable
-*.html -linguist-detectable
-
-# Build and validation scripts support the browser app but are not its runtime.
-scripts/** -linguist-detectable
